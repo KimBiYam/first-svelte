@@ -16,5 +16,8 @@
     <li>
       <a href="/conditional" use:link>Conditional</a>
     </li>
+    <li>
+      <a href="/each-blocks" use:link>EachBlocks</a>
+    </li>
   </ul>
 </main>

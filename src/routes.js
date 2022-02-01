@@ -3,6 +3,7 @@ import Count from "./pages/count.svelte";
 import UpdateArrays from "./pages/updateArrays.svelte";
 import UseProps from "./pages/useProps.svelte";
 import Conditional from "./pages/conditional.svelte";
+import EachBlocks from "./pages/eachBlocks.svelte";
 
 const routes = {
   "/": Home,
@@ -10,6 +11,7 @@ const routes = {
   "/update-arrays": UpdateArrays,
   "/use-props": UseProps,
   "/conditional": Conditional,
+  "/each-blocks": EachBlocks,
 };
 
 export default routes;
