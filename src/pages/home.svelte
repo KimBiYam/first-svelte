@@ -19,5 +19,8 @@
     <li>
       <a href="/each-blocks" use:link>EachBlocks</a>
     </li>
+    <li>
+      <a href="/use-await" use:link>UseAwait</a>
+    </li>
   </ul>
 </main>
