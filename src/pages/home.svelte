@@ -10,5 +10,8 @@
     <li>
       <a href="/update-arrays" use:link>UpdateArrays</a>
     </li>
+    <li>
+      <a href="/use-props" use:link>UseProps</a>
+    </li>
   </ul>
 </main>
