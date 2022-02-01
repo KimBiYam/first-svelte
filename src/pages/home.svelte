@@ -7,5 +7,8 @@
     <li>
       <a href="/count" use:link>Count</a>
     </li>
+    <li>
+      <a href="/update-arrays" use:link>UpdateArrays</a>
+    </li>
   </ul>
 </main>
