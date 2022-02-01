@@ -1,5 +1,6 @@
 <script>
   let count = 0;
+  $: doubled = count * 2;
 
   const increment = () => {
     count = count + 1;
@@ -12,6 +13,7 @@
 
 <main>
   <h1>Count : {count}</h1>
+  <h1>Doubled : {doubled}</h1>
   <button type="button" on:click={increment}>Increment</button>
   <button type="button" on:click={decrement}>Decrement</button>
 </main>
