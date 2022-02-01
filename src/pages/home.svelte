@@ -13,5 +13,8 @@
     <li>
       <a href="/use-props" use:link>UseProps</a>
     </li>
+    <li>
+      <a href="/conditional" use:link>Conditional</a>
+    </li>
   </ul>
 </main>
