@@ -2,6 +2,11 @@
   let count = 0;
   $: doubled = count * 2;
 
+  $: if (count >= 10) {
+    alert("count is dengerously high!");
+    count = 9;
+  }
+
   const increment = () => {
     count = count + 1;
   };
