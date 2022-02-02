@@ -1,5 +1,5 @@
 <script>
-  import Inner from "../components/domEvents/Inner.svelte";
+  import Outer from "../components/domEvents/Outer.svelte";
 
   let m = { x: 0, y: 0 };
 
@@ -17,7 +17,7 @@
   The mouse position is {m.x} , {m.y}
 </div>
 
-<Inner on:myEvent={handleMessage} />
+<Outer on:myEvent={handleMessage} />
 
 <style>
   .box {
