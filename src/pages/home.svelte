@@ -25,5 +25,8 @@
     <li>
       <a href="/dom-events" use:link>DomEvents</a>
     </li>
+    <li>
+      <a href="/bindings" use:link>Bindings</a>
+    </li>
   </ul>
 </main>

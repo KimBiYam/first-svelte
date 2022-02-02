@@ -6,6 +6,7 @@ import Conditional from "./pages/conditional.svelte";
 import EachBlocks from "./pages/eachBlocks.svelte";
 import UseAwait from "./pages/useAwait.svelte";
 import DomEvents from "./pages/domEvents.svelte";
+import Bindings from "./pages/bindings.svelte";
 
 const routes = {
   "/": Home,
@@ -16,6 +17,7 @@ const routes = {
   "/each-blocks": EachBlocks,
   "/use-await": UseAwait,
   "/dom-events": DomEvents,
+  "/bindings": Bindings,
 };
 
 export default routes;
