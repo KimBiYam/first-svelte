@@ -22,5 +22,8 @@
     <li>
       <a href="/use-await" use:link>UseAwait</a>
     </li>
+    <li>
+      <a href="/dom-events" use:link>DomEvents</a>
+    </li>
   </ul>
 </main>
