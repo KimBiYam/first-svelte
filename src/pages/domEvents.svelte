@@ -1,5 +1,6 @@
 <script>
   import Outer from "../components/domEvents/Outer.svelte";
+  import CustomButton from "../components/domEvents/CustomButton.svelte";
 
   let m = { x: 0, y: 0 };
 
@@ -11,6 +12,10 @@
   const handleMessage = (event) => {
     alert(event.detail.text);
   };
+
+  const handleButtonClick = () => {
+    alert("Button Cliked");
+  };
 </script>
 
 <div on:mousemove={handleMousemove} class="box">
@@ -18,6 +23,7 @@
 </div>
 
 <Outer on:myEvent={handleMessage} />
+<CustomButton on:click={handleButtonClick} />
 
 <style>
   .box {
