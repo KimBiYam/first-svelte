@@ -4,7 +4,7 @@
   const dispatch = createEventDispatcher();
 
   const handleClick = () => {
-    dispatch("message", {
+    dispatch("myEvent", {
       text: "hello",
     });
   };

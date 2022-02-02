@@ -17,7 +17,7 @@
   The mouse position is {m.x} , {m.y}
 </div>
 
-<Inner on:message={handleMessage} />
+<Inner on:myEvent={handleMessage} />
 
 <style>
   .box {
